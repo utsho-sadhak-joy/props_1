@@ -1,9 +1,13 @@
 import React from 'react';
 import CardExa from './Components/CardExa'
+// import Page from './Components/Page'
+
 
 function App() {
   return (
     <div className="App">
+      {/* <Page /> */}
+      <CardExa />
       <CardExa />
     </div>
   );
