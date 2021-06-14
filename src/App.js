@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './Components/Card'
+import CardExa from './Components/CardExa'
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <CardExa />
     </div>
   );
 }
