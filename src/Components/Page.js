@@ -1,11 +1,11 @@
 import React from 'react'
-import CardExa from './CardExa'
+// import CardExa from './CardExa'
 
 
-const Page = () => {
+const Page = ({props}) => {
     return (
-        <div>
-            <CardExa props="joy" />
+        <div style={{ color:'red'}}>
+            I love you {props}
         </div>
     )
 }
