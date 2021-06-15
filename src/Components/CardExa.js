@@ -4,7 +4,7 @@ import './CSS/CardExa.css'
 // import { Button,Card } from 'react-bootstrap'
 import Page from './Page'
 import book from './IMG/pragmatic.jpg'
-
+import Water from './Water'
 
 const CardExa = () => {
     return (
@@ -12,6 +12,7 @@ const CardExa = () => {
             <div className="box"> 
                 <img alt="sadia.img" src={book} className="img" />
                 <Page props="book"/>
+                <Water />
             </div>
         </div>
     )
