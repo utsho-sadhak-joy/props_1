@@ -5,7 +5,8 @@ import React from 'react'
 const Page = ({props}) => {
     return (
         <div style={{ color:'red'}}>
-            I love you {props}
+            I love this {props}.
+          
         </div>
     )
 }
