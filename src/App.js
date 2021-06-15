@@ -1,11 +1,10 @@
-import React from 'react';
-
+import ProductList from './Components/ProductList'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>i can</h1>
+      <ProductList />
 
     </div>
   );
