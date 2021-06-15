@@ -10,7 +10,7 @@ const CardExa = () => {
     return (
         <div>
             <div className="box"> 
-                <img alt="sadia.img" src={book} style={{width:"275px",height:"400px"}} />
+                <img alt="sadia.img" src={book} className="img" />
                 <Page props="book"/>
             </div>
         </div>

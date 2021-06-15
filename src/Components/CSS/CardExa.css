@@ -1,7 +1,12 @@
 .box {
   border: 5px solid red;
   width: 275px;
-  height: 400px;
+  height: 399px;
   display: inline-block;
   /* background-color: green; */
+}
+
+.img {
+  width: 275px;
+  height: 400px;
 }
